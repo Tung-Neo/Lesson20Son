@@ -13,5 +13,8 @@ public class TestMovable {
         System.out.println(m2);
         m2.moveRight();
         System.out.println(m2);
+
+        Movable m3 = new MovableRectangle(1, 2, 8, 9, 20, 30);
+        System.out.println(m3);
     }
 }
